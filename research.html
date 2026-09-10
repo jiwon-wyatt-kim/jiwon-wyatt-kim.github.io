@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | Jiwon Kim</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html">Jiwon Kim</a>
+<nav class="nav" aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="research.html" aria-current="page">Research</a>
+<a href="publications.html">Publications</a>
+<a href="teaching.html">Teaching</a>
+<a href="news.html">News</a></nav>
+</div></header>
+<main id="main" class="page research-page">
+<section id="research" aria-labelledby="research-title">
+  <div class="section-heading"><h1 id="research-title">Research</h1></div>
+  <div class="research-intro">
+    <p class="lead">How do people adapt, decide, and work with intelligent systems?</p>
+    <p>I connect human factors and engineering psychology with the design of training, decision support, and human-centered technologies. My work examines how people assess capabilities, respond to changing demands, and coordinate cognitive work across human and AI agents.</p>
+  </div>
+
+  <div class="research-controls" hidden>
+    <fieldset class="topic-filter">
+      <legend class="visually-hidden">Filter research topics</legend>
+      <label><input type="radio" name="research-topic" value="all" checked><span>All Topics</span></label>
+      <label><input type="radio" name="research-topic" value="decisions"><span>Decision Making</span></label>
+      <label><input type="radio" name="research-topic" value="teams"><span>Human-AI Teams</span></label>
+      <label><input type="radio" name="research-topic" value="technology"><span>Training &amp; Technology</span></label>
+    </fieldset>
+    <p id="research-count" role="status" aria-live="polite" aria-atomic="true">3 topics</p>
+  </div>
+
+  <div class="research-topics">
+    <article class="research-topic" data-topic="decisions" id="decision-making" aria-labelledby="decision-title">
+      <figure class="research-figure">
+        <div class="topic-art art-decisions"><img src="assets/research-concepts.png" width="1536" height="512" alt="Conceptual illustration of an aircraft, weather conditions, and branching decisions."></div>
+        <!--<figcaption>Conceptual illustration</figcaption>-->
+      </figure>
+      <div class="topic-content">
+        <p class="topic-label">01 / Cognition under pressure</p>
+        <h2 id="decision-title">Adaptive Decision Making</h2>
+        <p>I study how people regulate their decision strategies as cognitive resources and situational demands change, and how training can strengthen that adaptation.</p>
+        <ul class="method-list" aria-label="Methods"><li>Cognitive task analysis</li><li>Simulation experiments</li><li>Metacognitive training</li></ul>
+
+        <details class="research-study">
+          <summary>Matching strategies to cognitive resources</summary>
+          <div class="study-body">
+            <p>Using the Contextual Control Model in an air traffic control simulation, I examined how available cognitive resources and experience shape strategy selection.</p>
+            <h3>Finding</h3>
+            <p>Performance was highest when decision strategies aligned with available cognitive resources. Experience strengthened participants' ability to select strategies suited to those resources.</p>
+            <p class="study-links"><a href="publications.html#j1">Human Factors, 2026</a></p>
+          </div>
+        </details>
+        <details class="research-study">
+          <summary>Training pilots for deteriorating weather</summary>
+          <div class="study-body">
+            <p>Interviews and cognitive task analysis with pilots identified the cues and conditions that trigger strategy changes. I used these insights to develop training that helps pilots monitor their cognitive resources and adapt their decisions.</p>
+            <h3>Study</h3>
+            <p>In an experiment with 40 licensed pilots, trained participants made more protective decisions as weather deteriorated and showed better strategy-resource alignment. The evaluation manuscript is under review.</p>
+            <p class="study-links"><a href="publications.html#j4">Cognitive task analysis</a><a href="publications.html#c2">Training development</a></p>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="research-topic" data-topic="teams" id="human-ai-teams" aria-labelledby="teams-title">
+      <figure class="research-figure">
+        <div class="topic-art art-teams"><img src="assets/research-concepts.png" width="1536" height="512" loading="lazy" alt="Conceptual illustration of people and an AI agent exchanging evidence around a shared table."></div>
+        <!--<figcaption>Conceptual illustration</figcaption>-->
+      </figure>
+      <div class="topic-content">
+        <p class="topic-label">02 / Shared cognitive work</p>
+        <h2 id="teams-title">Human-AI Cognition and Coordination</h2>
+        <p>I investigate how people learn to work with AI teammates, distribute tasks, and combine information to make better collective decisions.</p>
+        <ul class="method-list" aria-label="Methods"><li>Teamwork interventions</li><li>Group decision tasks</li><li>Behavioral experiments</li></ul>
+
+        <details class="research-study">
+          <summary>Developing human-AI teamwork skills</summary>
+          <div class="study-body">
+            <p>I developed and evaluated a task-independent intervention grounded in human-human teamwork principles. Participants practiced evaluating goals, developing strategies, allocating tasks, and communicating with an AI teammate.</p>
+            <h3>Finding</h3>
+            <p>Trained participants developed strategies with AI more frequently, delegated more tasks, and completed tasks more efficiently. Their teams also maintained better performance as task difficulty increased.</p>
+            <p class="study-links"><a href="publications.html#j2">Journal of Cognitive Engineering and Decision Making, in press</a></p>
+          </div>
+        </details>
+        <details class="research-study">
+          <summary>Pooling information in mixed human-AI groups <span class="study-status">Ongoing</span></summary>
+          <div class="study-body">
+            <p>My postdoctoral research at Purdue University uses hidden-profile tasks, in which no member initially holds all the information needed for a group decision.</p>
+            <h3>Research question</h3>
+            <p>When do human-AI groups surface uniquely held information, integrate conflicting evidence, respond to disagreement, and revise initial judgments?</p>
+            <p>I investigate these processes by examining AI reliability, information access, expressed confidence, and interaction behavior.</p>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="research-topic" data-topic="technology" id="training-technology" aria-labelledby="technology-title">
+      <figure class="research-figure">
+        <div class="topic-art art-technology"><img src="assets/research-concepts.png" width="1536" height="512" loading="lazy" alt="Conceptual illustration of an instructor using a tablet to create an augmented reality aviation weather scenario."></div>
+        <!--<figcaption>Conceptual illustration</figcaption>-->
+      </figure>
+      <div class="topic-content">
+        <p class="topic-label">03 / Human-centered technologies</p>
+        <h2 id="technology-title">Human Performance and Training</h2>
+        <p>I design and evaluate technologies around people's cognitive, perceptual, and physical capabilities, from instructor-led XR authoring to assistive systems.</p>
+        <ul class="method-list" aria-label="Methods"><li>Human-centered design</li><li>Usability evaluation</li><li>Human performance measurement</li></ul>
+
+        <details class="research-study">
+          <summary>Augmented reality for aviation weather education</summary>
+          <div class="study-body">
+            <p>In FAA-funded research, I worked with flight instructors to identify training requirements, design an AR authoring toolkit, and evaluate its usability and educational effectiveness.</p>
+            <h3>Contribution</h3>
+            <p>The toolkit enables instructors without programming expertise to create and modify immersive weather scenarios while retaining control over instructional content. Evaluation incorporated perspectives from instructors, experts, and students.</p>
+            <p class="study-links"><a href="publications.html#j5">Training requirements</a><a href="publications.html#j6">Authoring toolkit</a><a href="publications.html#j3">Educational evaluation</a></p>
+          </div>
+        </details>
+        <details class="research-study">
+          <summary>Perceptual and physical demands of technology</summary>
+          <div class="study-body">
+            <p>My studies examine cybersickness and motion cues in flight simulators, as well as the effects of a passive back-support exosuit during sustained posture maintenance and concurrent cognitive activity.</p>
+            <h3>Finding and ongoing work</h3>
+            <p>Exosuit use reduced muscular fatigue and perceived workload while improving performance on a higher-order information-integration task. I also develop measures of educators' readiness to create XR content and perceived display compellingness.</p>
+            <p class="study-links"><a href="publications.html#j7">Exosuit study</a><a href="publications.html#j8">Simulator motion cues</a><a href="publications.html#j9">Cybersickness thresholds</a></p>
+          </div>
+        </details>
+      </div>
+    </article>
+  </div>
+
+  <section class="research-future" aria-labelledby="future-title">
+    <p class="topic-label">Looking ahead</p>
+    <h2 id="future-title">Future Directions</h2>
+    <div class="future-columns">
+      <div><h3>Adaptive Control and Calibration</h3><p>I plan to study when people rely on AI, seek information, intervene, or delegate as relative capabilities change. This work distinguishes capability miscalibration from failures to update strategies, and examines how personal goals and social considerations shape AI use. AI-supported public electric vehicle charging provides an initial setting for these questions.</p></div>
+      <div><h3>Collective Cognition</h3><p>I aim to identify when AI teammates help groups share unique evidence, reconsider initial judgments, and reduce cognitive bias. Planned studies examine information distribution, communication, disagreement, and complementary human and AI vulnerabilities.</p></div>
+    </div>
+  </section>
+</section>
+</main>
+<footer class="site-footer"><p>&copy; <span id="year">2026</span> Jiwon Kim</p>
+<script src="script.js"></script>
+<script src="research.js"></script>
+</body>
+</html>
