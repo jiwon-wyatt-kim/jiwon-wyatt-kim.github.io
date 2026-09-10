@@ -1,58 +1,39 @@
-# Personal Academic Website
+# Jiwon W. Kim | Academic Website
 
-This is a free, static academic website designed for GitHub Pages.
+This repository contains the source code for my personal academic website:
 
-## Edit Your Information
+**[https://jiwon-wyatt-kim.github.io](https://jiwon-wyatt-kim.github.io)**
 
-Update the placeholder text in the relevant page:
+I am a Postdoctoral Research Associate at Purdue University. My research focuses on human factors, human-AI teaming, adaptive decision making, and collective cognition.
 
-- `index.html`: home, biography, affiliation, education, and contact
-- `research.html`: research themes and expandable study summaries
-- `publications.html`: publications
-- `teaching.html`: courses and mentoring
-- `team.html`: current members and alumni
-- `news.html`: updates
+## Website
 
-All pages share `styles.css` and use Merriweather headings and Inter body text.
-Fonts load from Google Fonts, with local fallback fonts when offline.
-Navigation is included in each HTML file so it works without JavaScript.
+The website includes information about my:
 
-## Research Page
+- Research interests and projects
+- Publications
+- Teaching and mentoring
+- Research team
+- News and updates
+- Academic background and contact information
 
-The Research page uses topic filters (`research.js`) and native expandable study
-summaries (`details` elements). All research remains readable without JavaScript.
-Edit each study directly in `research.html`; keep its publication links aligned
-with the IDs in `publications.html`.
+## Structure
 
-The three conceptual illustrations use `assets/research-concepts.png`, an
-AI-generated triptych, cropped into three views by CSS. They are not photographs
-of actual studies. To substitute your own research photos, use separate image
-paths and remove the corresponding `art-decisions`, `art-teams`, or
-`art-technology` class. Update the image alt text and figure caption too.
+The main pages are:
 
-Replace the following sample information before publishing:
+- `index.html` — Home and biography
+- `research.html` — Research program and projects
+- `publications.html` — Publications
+- `teaching.html` — Teaching and mentoring
+- `news.html` — News and updates
 
-- `Your Name`
-- title, department, university, and email
-- research themes
-- selected publications
-- teaching and mentoring entries
-- news items
-- links to CV, Google Scholar, GitHub, LinkedIn, or ORCID
+Shared styling is contained in `styles.css`, with additional interactive functionality provided by `script.js` and `research.js`.
 
-To use a real headshot, add an image file such as `headshot.jpg` to this folder
-and replace the `intro-photo` placeholder in `index.html` with:
+## Technical Information
 
-```html
-<img class="intro-photo" src="headshot.jpg" alt="Portrait of Your Name">
-```
+This is a static website built with HTML, CSS, and JavaScript and hosted using GitHub Pages.
+The site is designed to remain functional without a server-side framework or database.
 
-## Publish on GitHub Pages
+## Contact
 
-1. Create a public GitHub repository named `YOUR-USERNAME.github.io`.
-2. Add these files to that repository.
-3. Commit and push to the `main` branch.
-4. Visit `https://YOUR-USERNAME.github.io`.
-
-For a project repository instead of a username site, enable GitHub Pages in the
-repository settings and publish from the `main` branch root.
+For information about my research, publications, or potential collaborations, please visit the website or contact me using the information provided there.
